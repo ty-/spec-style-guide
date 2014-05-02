@@ -18,6 +18,9 @@ On github.com, anchor tags are automatically generated for headers, we can make 
 
 ## 1.0 Revision History
 
+##### Version 0.0.2
+* Added tables to test against [gitprint.com](http://gitprint.com)
+
 ##### Version 0.0.1
 * Added "less is more" ToC example
 * Started Revision History
@@ -29,6 +32,41 @@ More content.
 ### 2.1 Section 2.1
 
 This is pretty cool!
+
+Examples of Tables:
+
+##### Markdown
+
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+
+##### HTML
+
+<table>
+  <thead>
+    <tr>
+      <th>First Header</th>
+      <th>Second Header</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Content</td>
+      <td>Content</td>
+    </tr>
+    <tr>
+      <td>Content</td>
+      <td>Content</td>
+    </tr>
+    <tr>
+      <td>Content</td>
+      <td>Content</td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2.2 Some Really Cool Section
 
