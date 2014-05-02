@@ -18,7 +18,9 @@ On github.com, anchor tags are automatically generated for headers, we can make 
 
 ## 1.0 Revision History
 
-Here is some content test.
+##### Version 0.0.1
+* Added "less is more" ToC example
+* Started Revision History
 
 ## 2.0 Section 2
 
