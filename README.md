@@ -36,13 +36,13 @@ This isn't the only place the specification will be seen, modified or even the f
 
 * Be as readable as possible as plaintext, on github and within the confines of Markdown
 * Use Markdown whenever possible and sensible
-* Print to PDF nicely on [gitprint.com](https://gitprint.com/ty-/spec-style-guide/edit/master/README.md)
+* Print to PDF nicely on [gitprint.com (try this README.md)](https://gitprint.com/ty-/spec-style-guide/blob/master/README.md)
 * Convert nicely using [pandoc](http://johnmacfarlane.net/pandoc/)
 * Provide advice for best practices based on these goals
 
 > There is, however, one respect in which pandoc’s aims are different from the original aims of markdown. Whereas markdown was originally designed with HTML generation in mind, pandoc is designed for multiple output formats. Thus, while pandoc allows the embedding of raw HTML, it discourages it, and provides other, non-HTMLish ways of representing important document elements like definition lists, tables, mathematics, and footnotes.
-
-~ John Macfarlane, [pandoc's Markdown](http://johnmacfarlane.net/pandoc/demo/example9/pandocs-markdown.html)
+>
+> ~ John Macfarlane, [pandoc's Markdown](http://johnmacfarlane.net/pandoc/demo/example9/pandocs-markdown.html)
 
 
 *disclaimer: This document is by no means meant to serve as "the" way to do anything. In fact, I'm probably incorrect about a few things. If you find something that could be improved, I'd happily accept feedback and/or a pull request.*
@@ -50,9 +50,11 @@ This isn't the only place the specification will be seen, modified or even the f
 
 ## 3.0 Styling
 
+
 ### 3.1 Table of Contents
 
 On github.com, anchor tags are automatically generated for headers, we can make an educated guess about what that generated name will be to avoid the need for an anchor tag (ex: ```<a name="revision-history"></a>```) by the header.
+
 
 #### 3.1.0 Less is More (LiM) ToC
 
@@ -65,9 +67,20 @@ This document uses the LiM approach:
   * [2.1 Section 2.1](#21-section-21)
   * [2.2 Some Really Cool Section](#22-some-really-cool-section)
 * [3.0 LiM](#30-lim)
+
+## 1.0 Revision History
+
+## 2.0 Section 2
+
+### 2.1 Section 2.1
+
+### 2.2 Some Really Cool Section
+
+## 3.0 LiM
 ```
 
 See [Appendix A: Examples](#appendix-a-examples) for a complete example.
+
 
 #### 3.1.1 Explicit Anchor ToC
 
@@ -93,9 +106,11 @@ If your specification requires explicit anchor tags, you can define them:
 ## 3.0 Explicit <a name="because-i-wanted-a-really-long-descriptive-anchor"></a>
 ```
 
+
 ### 3.2 Tables
 
 Tables can be written in both Markdown and HTML. Use Markdown where you can to keep it simple. HTML was intended for more complex tables (such as column and row spanning). Github does not support extended certain markdown table extensions [citation needed].
+
 
 #### 3.2.0 Markdown Tables
 
@@ -116,6 +131,7 @@ Content Cell  | Content Cell
 Content Cell  | Content Cell
 
 *TODO: Complex examples*
+
 
 #### 3.2.1 HTML Tables
 
