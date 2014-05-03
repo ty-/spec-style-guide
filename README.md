@@ -16,7 +16,7 @@ Just started. Wait until 0.5.0 to take it semi-seriously. Feedback welcomed.
 * [Status of this Document](#status-of-this-document)
 * [1.0 Revision History](#10-revision-history)
 * [2.0 Goals](#20-goals)
-* [3.0 Styling](#30-styling)
+* [3.0 Style Guide](#30-style-guide)
   * [3.1 Table of Contents](#31-table-of-contents)
     * [3.1.0 Less is More (LiM) ToC](#310-less-is-more-lim-toc)
     * [3.1.1 Explicit Anchor ToC](#311-explicit-anchor-toc)
@@ -65,7 +65,7 @@ This isn't the only place the specification will be seen, modified or even the f
 *disclaimer: This document is by no means meant to serve as "the" way to do anything. In fact, I'm probably incorrect about a few things. If you find something that could be improved, I'd happily accept feedback and/or a pull request.*
 
 
-## 3.0 Styling
+## 3.0 Style Guide
 
 
 ### 3.1 Table of Contents
@@ -146,6 +146,22 @@ First Header  | Second Header
 Content Cell  | Content Cell
 Content Cell  | Content Cell
 Content Cell  | Content Cell
+
+```
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
+```
+
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
+
+Generated with [Tables Generator](http://www.tablesgenerator.com/markdown_tables)
 
 *TODO: Complex examples*
 
@@ -252,7 +268,8 @@ This is pretty cool!
 ## Appendix C: Acknowledgements and Contributors
 
 __ADL__
-* Tyler Mulligan ([github.com/ty-](https://github.com/ty-))
+
+* [Tyler Mulligan](https://github.com/ty-)
 
 
 *Thank you to:*
