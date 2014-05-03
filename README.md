@@ -40,9 +40,7 @@ This isn't the only place the specification will be seen, modified or even the f
 * Convert nicely using [pandoc](http://johnmacfarlane.net/pandoc/)
 * Provide advice for best practices based on these goals
 
-> There is, however, one respect in which pandoc’s aims are different from the original aims of markdown. Whereas markdown was originally designed with HTML generation in mind, pandoc is designed for multiple output formats. Thus, while pandoc allows the embedding of raw HTML, it discourages it, and provides other, non-HTMLish ways of representing important document elements like definition lists, tables, mathematics, and footnotes.
->
-> ~ John Macfarlane, [pandoc's Markdown](http://johnmacfarlane.net/pandoc/demo/example9/pandocs-markdown.html)
+> There is, however, one respect in which pandoc’s aims are different from the original aims of markdown. Whereas markdown was originally designed with HTML generation in mind, pandoc is designed for multiple output formats. Thus, while pandoc allows the embedding of raw HTML, it discourages it, and provides other, non-HTMLish ways of representing important document elements like definition lists, tables, mathematics, and footnotes. ~~ <cite>John Macfarlane, [pandoc's Markdown](http://johnmacfarlane.net/pandoc/demo/example9/pandocs-markdown.html)</cite>
 
 
 *disclaimer: This document is by no means meant to serve as "the" way to do anything. In fact, I'm probably incorrect about a few things. If you find something that could be improved, I'd happily accept feedback and/or a pull request.*
