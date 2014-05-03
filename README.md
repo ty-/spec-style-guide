@@ -3,7 +3,7 @@ spec-style-guide
 
 ## Abstract
 
-These guidelines are meant to serve as a guide for writing specifications in [Markdown](http://whatismarkdown.com/) with an interest in maintaining as much readability as possible as defined in [2.0 Goals](#20-goals).
+These guidelines are meant to serve as a reference for writing specifications in [Markdown](http://whatismarkdown.com/) with an interest in maintaining as much readability as possible as defined in [2.0 Goals](#20-goals).
 
 
 ## Status of this Document
@@ -31,6 +31,9 @@ Just started. Wait until 0.5.0 to take it semi-seriously. Feedback welcomed.
 ## 1.0 Revision History
 
 This will be truncated as the specification moves along, history on github has these remarks.
+
+##### Version 0.0.5 (05/03/2014)
+* Added more content, clarified language
 
 ##### Version 0.0.4 (05/02/2014)
 * Added more sections and content, updated some styles
@@ -66,6 +69,8 @@ This isn't the only place the specification will be seen, modified or even the f
 
 
 ## 3.0 Style Guide
+
+An overview of markdown may or may not be inclusive in this specification as it caters towards writing specifications. It will cover details of Markdown as relative to Markdown but do reference other sources for more information regarding Markdown.
 
 
 ### 3.1 Table of Contents
@@ -146,6 +151,8 @@ First Header  | Second Header
 Content Cell  | Content Cell
 Content Cell  | Content Cell
 Content Cell  | Content Cell
+
+_Simple Tables with Alignment (recommended)_
 
 ```
 | Tables   |      Are      |  Cool |
