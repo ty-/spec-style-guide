@@ -1,7 +1,19 @@
 spec-style-guide
 ================
 
+## Abstract
+
+These guidelines are meant to serve as a guide for writing specifications in [Markdown](http://whatismarkdown.com/) with an interest in maintaining as much readability as possible as defined in [2.0 Goals](#20-goals).
+
+
+## Status of this Document
+
+Just started. Wait until 0.5.0 to take it semi-seriously. Feedback welcomed.
+
+
 ## Table of Contents
+* [Abstract](#abstract)
+* [Status of this Document](#status-of-this-document)
 * [1.0 Revision History](#10-revision-history)
 * [2.0 Goals](#20-goals)
 * [3.0 Styling](#30-styling)
@@ -11,19 +23,26 @@ spec-style-guide
   * [3.2 Tables](#32-tables)
     * [3.2.0 Markdown Tables](#320-markdown-tables)
     * [3.2.1 HTML Tables](#321-html-tables)
-* [Appendix A: Examples](#appendix-a-examples)
+* [Appendix A: Glossary](#appendix-a-glossary)
+* [Appendix B: Examples](#appendix-b-examples)
+* [Appendix C: Acknowledgements and Contributors](#appendix-c-acknowledgements-and-contributors)
 
 
 ## 1.0 Revision History
 
-##### Version 0.0.3
+This will be truncated as the specification moves along, history on github has these remarks.
+
+##### Version 0.0.4 (05/02/2014)
+* Added more sections and content, updated some styles
+
+##### Version 0.0.3 (05/02/2014)
 * Clarified (maybe) some information about the ToC
 * Started to "yo dawg" the specification
 
-##### Version 0.0.2
+##### Version 0.0.2 (05/02/2014)
 * Added tables to test against [gitprint.com](http://gitprint.com)
 
-##### Version 0.0.1
+##### Version 0.0.1 (05/02/2014)
 * Added "less is more" ToC example
 * Started Revision History
 
@@ -77,7 +96,7 @@ This document uses the LiM approach:
 ## 3.0 LiM
 ```
 
-See [Appendix A: Examples](#appendix-a-examples) for a complete example.
+See [Appendix B: Examples](#appendix-b-examples) for a complete example.
 
 
 #### 3.1.1 Explicit Anchor ToC
@@ -184,9 +203,13 @@ Content Cell  | Content Cell
 *TODO: Complex examples*
 
 
-## Appendix A: Examples
+## Appendix A: Glossary
 
-_boilerplate_
+*TODO*
+
+## Appendix B: Examples
+
+__boilerplate__
 
 ```
 ## Table of Contents
@@ -226,3 +249,14 @@ This is pretty cool!
 Examples of Tables:
 
 ```
+
+
+## Appendix C: Acknowledgements and Contributors
+
+__ADL__
+* Tyler Mulligan ([github.com/ty-](https://github.com/ty-))
+
+
+*Thank you to:*
+
+[John Gruber](https://daringfireball.net/projects/markdown/), [Adam Burmister](https://github.com/adamburmister), [John MacFarlane](https://github.com/jgm)
