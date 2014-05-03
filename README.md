@@ -246,8 +246,6 @@ More content.
 
 This is pretty cool!
 
-Examples of Tables:
-
 ```
 
 
