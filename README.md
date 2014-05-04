@@ -223,12 +223,109 @@ Generated with [Tables Generator](http://www.tablesgenerator.com/markdown_tables
   </tbody>
 </table>
 
+
+```
+<table>
+  <thead>
+    <tr>
+      <th>First Header</th>
+      <th>Second Header</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">Content which spans columns</td>
+    </tr>
+    <tr>
+      <td>Content</td>
+      <td>Content</td>
+    </tr>
+    <tr>
+      <td>Content</td>
+      <td>Content</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+<table>
+  <thead>
+    <tr>
+      <th>First Header</th>
+      <th>Second Header</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">Content which spans columns</td>
+    </tr>
+    <tr>
+      <td>Content</td>
+      <td>Content</td>
+    </tr>
+    <tr>
+      <td>Content</td>
+      <td>Content</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+```
+<table>
+  <thead>
+    <tr>
+      <th>First Header</th>
+      <th>Second Header</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2">Content which spans rows</td>
+      <td colspan="2">Content</td>
+    </tr>
+    <tr>
+      <td>Content</td>
+    </tr>
+    <tr>
+      <td>Content</td>
+      <td>Content</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+<table>
+  <thead>
+    <tr>
+      <th>First Header</th>
+      <th>Second Header</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2">Content which spans rows</td>
+      <td colspan="2">Content</td>
+    </tr>
+    <tr>
+      <td>Content</td>
+    </tr>
+    <tr>
+      <td>Content</td>
+      <td>Content</td>
+    </tr>
+  </tbody>
+</table>
+
 *TODO: Complex examples*
 
 
 ## Appendix A: Glossary
 
-*TODO*
+**Markdown**: Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML). ~~ <cite>John Gruber</cite>
+
+*In progress*
 
 ## Appendix B: Examples
 
