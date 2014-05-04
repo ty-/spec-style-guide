@@ -30,7 +30,11 @@ Just started. Wait until 0.5.0 to take it semi-seriously. Feedback welcomed.
 
 ## 1.0 Revision History
 
-This will be truncated as the specification moves along, history on github has these remarks.
+*This list will be truncated as the specification moves along, the revision history on github can be used as a reference.*
+
+##### Version 0.0.6 (05/04/2014)
+* Clarified copy and styles
+* Previously added more table examples to test
 
 ##### Version 0.0.5 (05/03/2014)
 * Added more content, clarified language
@@ -44,11 +48,6 @@ This will be truncated as the specification moves along, history on github has t
 
 ##### Version 0.0.2 (05/02/2014)
 * Added tables to test against [gitprint.com](http://gitprint.com)
-
-##### Version 0.0.1 (05/02/2014)
-* Added "less is more" ToC example
-* Started Revision History
-
 
 ## 2.0 Goals
 
