@@ -20,9 +20,10 @@ Just started. Wait until 0.5.0 to take it semi-seriously. Feedback welcomed.
   * [3.1 Table of Contents](#31-table-of-contents)
     * [3.1.0 Less is More (LiM) ToC](#310-less-is-more-lim-toc)
     * [3.1.1 Explicit Anchor ToC](#311-explicit-anchor-toc)
-  * [3.2 Tables](#32-tables)
-    * [3.2.0 Markdown Tables](#320-markdown-tables)
-    * [3.2.1 HTML Tables](#321-html-tables)
+  * [3.2 Markdown Style Basics](#32-markdown-style-basics)
+  * [3.3 Tables](#33-tables)
+    * [3.3.0 Markdown Tables](#330-markdown-tables)
+    * [3.3.1 HTML Tables](#331-html-tables)
 * [Appendix A: Glossary](#appendix-a-glossary)
 * [Appendix B: Examples](#appendix-b-examples)
 * [Appendix C: Acknowledgements and Contributors](#appendix-c-acknowledgements-and-contributors)
@@ -31,6 +32,9 @@ Just started. Wait until 0.5.0 to take it semi-seriously. Feedback welcomed.
 ## 1.0 Revision History
 
 *This list will be truncated as the specification moves along, the revision history on github can be used as a reference.*
+
+##### Version 0.0.7 (05/05/2014)
+* Started new section, Markdown basics
 
 ##### Version 0.0.6 (05/04/2014)
 * Clarified copy and styles
@@ -128,7 +132,114 @@ If your specification requires explicit anchor tags, you can define them:
 ```
 
 
-### 3.2 Tables
+### 3.2 Markdown Style Basics
+
+Below is a brief overview of Markdown basic formatting.
+
+__Headers__
+
+```
+Header 1
+========
+
+# Header 1
+## Header 2
+### Header 3
+#### Header 4
+##### Header 5
+###### Header 6
+```
+
+Header 1
+========
+
+# Header 1
+## Header 2
+### Header 3
+#### Header 4
+##### Header 5
+###### Header 6
+
+
+__Italics (emphasize)__
+
+```
+*emphasize*
+
+_emphasize_
+```
+
+*emphasize*
+
+_emphasize_
+
+
+__Bold (strongly emphasize)__
+
+```
+**strongly emphasize**
+
+__stronly emphasize__
+```
+
+**strongly emphasize**
+
+__stronly emphasize__
+
+
+__Quotes__
+
+```
+> I'm a quote
+> with a citation ~~ <cite>Tyler Mulligan</cite>
+```
+
+> I'm a quote
+> with a citation ~~ <cite>Tyler Mulligan</cite>
+
+
+__Links__
+
+```
+http://github.com
+
+[Github](http://github.com)
+
+[Github](http://github.com "Github with title tag")
+```
+
+http://github.com
+
+[Github](http://github.com)
+
+[Github](http://github.com "Github with title tag")
+
+
+__Lists__
+
+```
+1. Item 1
+2. Item 2
+3. Item 3
+
+* Item 1
+* Item 2
+* Item 3
+```
+
+1. Item 1
+2. Item 2
+3. Item 3
+
+* Item 1
+* Item 2
+* Item 3
+
+
+*TODO: more info*
+
+
+### 3.3 Tables
 
 Tables can be written in both Markdown and HTML. Use Markdown where you can to keep it simple. HTML was intended for more complex tables (such as column and row spanning). Github does not support extended certain markdown table extensions [citation needed].
 
