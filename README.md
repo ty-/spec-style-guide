@@ -508,4 +508,4 @@ __ADL__
 
 *Thank you to:*
 
-[John Gruber](https://daringfireball.net/projects/markdown/), [Adam Burmister](https://github.com/adamburmister), [John MacFarlane](https://github.com/jgm)
+[John Gruber](https://daringfireball.net/projects/markdown/ "Creator of Markdown"), [Adam Burmister](https://github.com/adamburmister "Creator of gitprint.com"), [John MacFarlane](https://github.com/jgm "Creator of pandoc")
