@@ -33,6 +33,9 @@ Just started. Wait until 0.5.0 to take it semi-seriously. Feedback welcomed.
 
 *This list will be truncated as the specification moves along, the revision history on github can be used as a reference.*
 
+##### Version 0.0.8 (05/06/2014)
+* Markdown Basics expansion, copy editing and restyling
+
 ##### Version 0.0.7 (05/05/2014)
 * Started new section, Markdown basics
 
@@ -142,6 +145,9 @@ __Headers__
 Header 1
 ========
 
+Header 2
+--------
+
 # Header 1
 ## Header 2
 ### Header 3
@@ -153,6 +159,9 @@ Header 1
 Header 1
 ========
 
+Header 2
+--------
+
 # Header 1
 ## Header 2
 ### Header 3
@@ -161,41 +170,39 @@ Header 1
 ###### Header 6
 
 
-__Italics (emphasize)__
+__Italics (emphasis)__
 
 ```
-*emphasize*
+_emphasis_
 
-_emphasize_
+*emphasis*
 ```
 
-*emphasize*
+_emphasis_
 
-_emphasize_
-
-
-__Bold (strongly emphasize)__
-
-```
-**strongly emphasize**
-
-__stronly emphasize__
-```
-
-**strongly emphasize**
-
-__stronly emphasize__
+*emphasis*
 
 
-__Quotes__
+__Bold (strong emphasis)__
 
 ```
-> I'm a quote
-> with a citation ~~ <cite>Tyler Mulligan</cite>
+__strong emphasis__
+
+**strong emphasis**
 ```
 
-> I'm a quote
-> with a citation ~~ <cite>Tyler Mulligan</cite>
+__strong emphasis__
+
+**strong emphasise**
+
+
+__Strikethrough__
+
+```
+~~strikethrough~~
+```
+
+~~strikethrough~~
 
 
 __Links__
@@ -236,6 +243,17 @@ __Lists__
 * Item 1
 * Item 2
 * Item 3
+
+
+__Quotes__
+
+```
+> I'm a quote
+> with a citation ~~ <cite>Tyler Mulligan</cite>
+```
+
+> I'm a quote
+> with a citation ~~ <cite>Tyler Mulligan</cite>
 
 
 *TODO: more info*
