@@ -33,6 +33,9 @@ Just started. Wait until 0.5.0 to take it semi-seriously. Feedback welcomed.
 
 *This list will be truncated as the specification moves along, the revision history on github can be used as a reference.*
 
+##### Version 0.0.8 (05/07/2014)
+* Markdown Basics expansion
+
 ##### Version 0.0.8 (05/06/2014)
 * Markdown Basics expansion, copy editing and restyling
 
@@ -205,23 +208,6 @@ __Strikethrough__
 ~~strikethrough~~
 
 
-__Links__
-
-```
-http://github.com
-
-[Github](http://github.com)
-
-[Github](http://github.com "Github with title tag")
-```
-
-http://github.com
-
-[Github](http://github.com)
-
-[Github](http://github.com "Github with title tag")
-
-
 __Lists__
 
 ```
@@ -255,6 +241,49 @@ __Quotes__
 > I'm a quote
 > with a citation ~~ <cite>Tyler Mulligan</cite>
 
+
+__Links__
+
+```
+http://github.com
+
+[Github](http://github.com)
+
+[Github with a title tag](http://github.com "Github with title tag")
+```
+
+http://github.com
+
+[Github](http://github.com)
+
+[Github with a title tag](http://github.com "Github with title tag")
+
+
+__Reference Links__
+
+    [Google][1]
+    
+    [Github][2]
+    
+    [ADL][3]
+    
+    [1]: http://www.google.com "Google"
+    
+    [2]: http://www.github.com "Github"
+    
+    [3]: http://www.adlnet.gov "Advanced Distributed Learning"
+
+[Google][1]
+
+[Github][2]
+
+[ADL][3]
+
+[1]: http://www.google.com "Title Text"
+
+[2]: http://www.github.com "Github"
+
+[3]: http://www.adlnet.gov "Advanced Distributed Learning"
 
 *TODO: more info*
 
@@ -497,6 +526,8 @@ More content.
 This is pretty cool!
 
 ```
+
+*In progress*
 
 
 ## Appendix C: Acknowledgements and Contributors
