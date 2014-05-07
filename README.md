@@ -81,6 +81,14 @@ This isn't the only place the specification will be seen, modified or even the f
 
 An overview of markdown may or may not be inclusive in this specification as it caters towards writing specifications. It will cover details of Markdown as relative to Markdown but do reference other sources for more information regarding Markdown.
 
+Github uses "Github Flavored Markdown," which is generally specific to github, do take advantage of this but as defined in the Goals section of this document, try to maintain conversion to other formats.
+
+
+Two great references for "Github Flavored Markdown"
+
+https://guides.github.com/features/mastering-markdown/
+https://github.com/gitlabhq/gitlabhq/blob/master/doc/markdown/markdown.md#special-gitlab-references
+
 
 ### 3.1 Table of Contents
 
@@ -267,9 +275,9 @@ __Reference Links__
     
     [ADL][3]
     
-    [1]: http://www.google.com "Google"
+    [1]: http://www.google.com "Google Title Text"
     
-    [2]: http://www.github.com "Github"
+    [2]: http://www.github.com "Github Title Text"
     
     [3]: http://www.adlnet.gov "Advanced Distributed Learning"
 
@@ -279,9 +287,9 @@ __Reference Links__
 
 [ADL][3]
 
-[1]: http://www.google.com "Title Text"
+[1]: http://www.google.com "Google Title Text"
 
-[2]: http://www.github.com "Github"
+[2]: http://www.github.com "Github Title Text"
 
 [3]: http://www.adlnet.gov "Advanced Distributed Learning"
 
