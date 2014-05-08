@@ -33,6 +33,10 @@ Just started. Wait until 0.5.0 to take it semi-seriously. Feedback welcomed.
 
 *This list will be truncated as the specification moves along, the revision history on github can be used as a reference.*
 
+##### Version 0.0.8 (05/08/2014)
+* Cleaned up copy, added/removed resources
+* Truncated Revision History
+
 ##### Version 0.0.8 (05/07/2014)
 * Markdown Basics expansion
 
@@ -46,18 +50,6 @@ Just started. Wait until 0.5.0 to take it semi-seriously. Feedback welcomed.
 * Clarified copy and styles
 * Previously added more table examples to test
 
-##### Version 0.0.5 (05/03/2014)
-* Added more content, clarified language
-
-##### Version 0.0.4 (05/02/2014)
-* Added more sections and content, updated some styles
-
-##### Version 0.0.3 (05/02/2014)
-* Clarified (maybe) some information about the ToC
-* Started to "yo dawg" the specification
-
-##### Version 0.0.2 (05/02/2014)
-* Added tables to test against [gitprint.com](http://gitprint.com)
 
 ## 2.0 Goals
 
@@ -83,11 +75,7 @@ An overview of markdown may or may not be inclusive in this specification as it 
 
 Github uses "Github Flavored Markdown," which is generally specific to github, do take advantage of this but as defined in the Goals section of this document, try to maintain conversion to other formats.
 
-
-Two great references for "Github Flavored Markdown"
-
-https://guides.github.com/features/mastering-markdown/
-https://github.com/gitlabhq/gitlabhq/blob/master/doc/markdown/markdown.md#special-gitlab-references
+[Github Flavored Markdown reference](https://guides.github.com/features/mastering-markdown/).
 
 
 ### 3.1 Table of Contents
@@ -177,11 +165,11 @@ Header 2
 ## Header 2
 ### Header 3
 #### Header 4
-##### Header 5
+ Header 5
 ###### Header 6
 
 
-__Italics (emphasis)__
+##### Italics (emphasis)
 
 ```
 _emphasis_
@@ -194,7 +182,7 @@ _emphasis_
 *emphasis*
 
 
-__Bold (strong emphasis)__
+##### Bold (strong emphasis)
 
 ```
 __strong emphasis__
@@ -204,10 +192,10 @@ __strong emphasis__
 
 __strong emphasis__
 
-**strong emphasise**
+**strong emphasis**
 
 
-__Strikethrough__
+##### Strikethrough
 
 ```
 ~~strikethrough~~
@@ -216,30 +204,42 @@ __Strikethrough__
 ~~strikethrough~~
 
 
-__Lists__
+##### Lists
 
 ```
 1. Item 1
 2. Item 2
 3. Item 3
+  * Sub-item 1
+  * Sub-item 2
+  * Sub-item 3
+  
 ```
 
 1. Item 1
 2. Item 2
 3. Item 3
+  * Sub-item 1
+  * Sub-item 2
+  * Sub-item 3
 
 ```
 * Item 1
 * Item 2
 * Item 3
+  * Sub-item 1
+  * Sub-item 2
+  * Sub-item 3
 ```
 
 * Item 1
 * Item 2
 * Item 3
+  * Sub-item 1
+  * Sub-item 2
+  * Sub-item 3
 
-
-__Quotes__
+##### Quotes
 
 ```
 > I'm a quote
@@ -250,7 +250,7 @@ __Quotes__
 > with a citation ~~ <cite>Tyler Mulligan</cite>
 
 
-__Links__
+##### Links
 
 ```
 http://github.com
@@ -267,7 +267,7 @@ http://github.com
 [Github with a title tag](http://github.com "Github with title tag")
 
 
-__Reference Links__
+##### Reference Links
 
     [Google][1]
     
