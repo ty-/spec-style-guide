@@ -21,6 +21,7 @@ Just started. Wait until 0.5.0 to take it semi-seriously. Feedback welcomed.
     * [3.1.0 Less is More (LiM) ToC](#310-less-is-more-lim-toc)
     * [3.1.1 Explicit Anchor ToC](#311-explicit-anchor-toc)
   * [3.2 Markdown Style Basics](#32-markdown-style-basics)
+    * [3.2.0 Github Flavored Markdown](#320-github-flavored-markdown)
   * [3.3 Tables](#33-tables)
     * [3.3.0 Markdown Tables](#330-markdown-tables)
     * [3.3.1 HTML Tables](#331-html-tables)
@@ -32,6 +33,10 @@ Just started. Wait until 0.5.0 to take it semi-seriously. Feedback welcomed.
 ## 1.0 Revision History
 
 *This list will be truncated as the specification moves along, the revision history on github can be used as a reference.*
+
+
+##### Version 0.0.9 (05/09/2014)
+* Broke out Github Flavored Markdown section, cleaned up structure
 
 ##### Version 0.0.8 (05/08/2014)
 * Cleaned up copy, added/removed resources
@@ -72,10 +77,6 @@ This isn't the only place the specification will be seen, modified or even the f
 ## 3.0 Style Guide
 
 An overview of markdown may or may not be inclusive in this specification as it caters towards writing specifications. It will cover details of Markdown as relative to Markdown but do reference other sources for more information regarding Markdown.
-
-Github uses "Github Flavored Markdown," which is generally specific to github, do take advantage of this but as defined in the Goals section of this document, try to maintain conversion to other formats.
-
-[Github Flavored Markdown reference](https://guides.github.com/features/mastering-markdown/).
 
 
 ### 3.1 Table of Contents
@@ -195,15 +196,6 @@ __strong emphasis__
 **strong emphasis**
 
 
-##### Strikethrough
-
-```
-~~strikethrough~~
-```
-
-~~strikethrough~~
-
-
 ##### Lists
 
 ```
@@ -224,6 +216,16 @@ __strong emphasis__
   * Sub-item 3
 
 ```
+- Item 1
+- Item 2
+- Item 3
+```
+
+- Item 1
+- Item 2
+- Item 3
+
+```
 * Item 1
 * Item 2
 * Item 3
@@ -238,6 +240,7 @@ __strong emphasis__
   * Sub-item 1
   * Sub-item 2
   * Sub-item 3
+
 
 ##### Quotes
 
@@ -295,13 +298,38 @@ http://github.com
 
 *TODO: more info*
 
+# 3.2.0 Github Flavored Markdown
+
+Github uses "Github Flavored Markdown," which is generally specific to github, do take advantage of this but as defined in the Goals section of this document, try to maintain conversion to other formats.
+
+Guide: [Github Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+Help: [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown)
+
+
+##### Strikethrough
+
+```
+~~strikethrough~~
+```
+
+~~strikethrough~~
+
+##### Task Lists
+
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
 
 ### 3.3 Tables
 
 Tables can be written in both Markdown and HTML. Use Markdown where you can to keep it simple. HTML was intended for more complex tables (such as column and row spanning). Github does not support extended certain markdown table extensions [citation needed].
 
 
-#### 3.2.0 Markdown Tables
+
+#### 3.3.0 Markdown Tables
 
 _Simple Tables_
 
@@ -340,7 +368,7 @@ Generated with [Tables Generator](http://www.tablesgenerator.com/markdown_tables
 *TODO: Complex examples*
 
 
-#### 3.2.1 HTML Tables
+#### 3.3.1 HTML Tables
 
 ```
 <table>
