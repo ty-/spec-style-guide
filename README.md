@@ -298,7 +298,7 @@ http://github.com
 
 *TODO: more info*
 
-# 3.2.0 Github Flavored Markdown
+#### 3.2.0 Github Flavored Markdown
 
 Github uses "Github Flavored Markdown," which is generally specific to github, do take advantage of this but as defined in the Goals section of this document, try to maintain conversion to other formats.
 
