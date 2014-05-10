@@ -296,7 +296,15 @@ http://github.com
 
 [3]: http://www.adlnet.gov "Advanced Distributed Learning"
 
+
+##### Images
+
+```![alt text, Tyler's avatar](https://avatars0.githubusercontent.com/u/6539020?s=460)````
+
+![alt text, Tyler's avatar](https://avatars0.githubusercontent.com/u/6539020?s=460)
+
 *TODO: more info*
+
 
 #### 3.2.0 Github Flavored Markdown
 
