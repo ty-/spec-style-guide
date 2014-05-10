@@ -299,7 +299,7 @@ http://github.com
 
 ##### Images
 
-```![alt text, Tyler's avatar](https://avatars0.githubusercontent.com/u/6539020?s=460)````
+```![alt text, Tyler's avatar](https://avatars0.githubusercontent.com/u/6539020?s=460)```
 
 ![alt text, Tyler's avatar](https://avatars0.githubusercontent.com/u/6539020?s=460)
 
