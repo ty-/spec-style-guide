@@ -340,6 +340,13 @@ Help: [Github Flavored Markdown](https://help.github.com/articles/github-flavore
 
 ##### Task Lists
 
+```
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+```
+
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item
@@ -362,7 +369,9 @@ alert('hello world');
 
 [Emoji Cheat Sheet](http://www.emoji-cheat-sheet.com/), can be used in commit messages.
 
-```:thumbsup:```
+```
+:thumbsup:
+```
 
 :thumbsup:
 
@@ -370,7 +379,6 @@ alert('hello world');
 ### 3.3 Tables
 
 Tables can be written in both Markdown and HTML. Use Markdown where you can to keep it simple. HTML was intended for more complex tables (such as column and row spanning). Github does not support extended certain markdown table extensions [citation needed].
-
 
 
 #### 3.3.0 Markdown Tables
