@@ -35,6 +35,9 @@ Just started. Wait until 0.5.0 to take it semi-seriously. Feedback welcomed.
 *This list will be truncated as the specification moves along, the revision history on github can be used as a reference.*
 
 
+##### Version 0.1.0 (05/13/2014)
+* Added more examples in Github Flavored Markdown section, cleaned up structure
+
 ##### Version 0.0.9 (05/09/2014)
 * Broke out Github Flavored Markdown section, cleaned up structure
 
@@ -253,6 +256,18 @@ __strong emphasis__
 > with a citation ~~ <cite>Tyler Mulligan</cite>
 
 
+##### Code Blocks
+
+Indent 4 spaces or use a codefence
+
+    ```
+    alert('hello world');
+    ```
+
+```
+alert('hello world');
+```
+
 ##### Links
 
 ```
@@ -331,6 +346,27 @@ Help: [Github Flavored Markdown](https://help.github.com/articles/github-flavore
 - [ ] this is an incomplete item
 
 
+##### Code Blocks
+
+With GFM, optionally define the code type in the opening code fence:
+
+    ```javascript
+    alert('hello world');
+    ```
+
+```javascript
+alert('hello world');
+```
+
+##### Emojis
+
+[Emoji Cheat Sheet](http://www.emoji-cheat-sheet.com/), can be used in commit messages.
+
+```:thumbsup:```
+
+:thumbsup:
+
+
 ### 3.3 Tables
 
 Tables can be written in both Markdown and HTML. Use Markdown where you can to keep it simple. HTML was intended for more complex tables (such as column and row spanning). Github does not support extended certain markdown table extensions [citation needed].
@@ -354,6 +390,7 @@ First Header  | Second Header
 Content Cell  | Content Cell
 Content Cell  | Content Cell
 Content Cell  | Content Cell
+
 
 _Simple Tables with Alignment (recommended)_
 
